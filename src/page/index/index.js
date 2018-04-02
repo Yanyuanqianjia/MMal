@@ -27,4 +27,7 @@ $(function() {
         var forward = $(this).hasClass('prev') ? 'prev' : 'next';
         $slider.data('unslider')[forward]();
     });
+    //页面加载的时候判断是否登录
+    //如果登录获取购物撤的数量
+    //
 });

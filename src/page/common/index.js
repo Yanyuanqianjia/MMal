@@ -10,3 +10,5 @@
 require('./layout.css');
 require('node_modules/font-awesome/css/font-awesome.min.css');
 require('./footer/index.css');
+//根据情况是否添加
+// window.$=require('./jquery-3.3.1.min')
