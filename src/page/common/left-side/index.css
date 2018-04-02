@@ -1,0 +1,82 @@
+.floor-nav {
+    display: none;
+    position: fixed;
+    width: 40px;
+    top: 50%;
+    left: 30px;
+    margin-top: -15%;
+    background-color: #fff;
+    z-index: 9;
+    font-family: "Microsoft Yahei", "SimSun", Helvetica, Tahoma, sans-serif ;
+}
+
+.floor-nav>a {
+    position: relative;
+    display: block;
+    margin-top: -1px;
+    border: 1px solid #e5e5e5;
+    padding: 0 3px;
+    width: 32px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: gray;
+}
+
+.floor-nav>a em {
+    display: block;
+    position: relative;
+    font-style: normal;
+    transition: all .5s
+}
+
+.floor-nav>a span {
+    display: block;
+    margin: 3px 0;
+    height: 32px;
+    line-height: 15px;
+    overflow: hidden
+}
+
+.floor-nav>a i.floor-new {
+    position: absolute;
+    display: block;
+    left: 40px;
+    top: 50%;
+    margin-top: -6px;
+    width: 30px;
+    height: 12px;
+    /*background: url(../images/base/new_left.png) no-repeat*/
+}
+
+.floor-nav>a.words span {
+    padding-top: 3px;
+    line-height: 15px
+}
+
+.floor-nav>a:hover em {
+    margin-top: -38px
+}
+
+.floor-nav>a:hover span {
+    background-color: #76c552;
+    color: #fff
+}
+
+.floor-nav>a.selected,.floor-nav>a:hover {
+    border-color: #76c552;
+    background-color: #76c552;
+    color: #fff
+}
+
+.floor-nav>a.selected em,.floor-nav>a:hover em {
+    margin-top: -38px
+}
+
+.floor-nav>a.selected span,.floor-nav>a:hover span {
+    background-color: #76c552;
+    color: #fff
+}
