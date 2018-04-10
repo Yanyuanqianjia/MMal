@@ -1,0 +1,9 @@
+ {{#keyword_list}}
+    <li class='keywords-item'>
+        {{#keywords_item}}
+        <a class="link" target="_blank" href="./list.html?keyword={{herfKeywords}}">{{keyword}}</a>
+        {{/keywords_item}}
+        <!--<i class="fa fa-chevron-right" style='display: block;position: absolute;right: 1px;top: 50%;margin-top: -6px'></i>-->
+        <i class="fa fa-chevron-right"></i>
+    </li>
+{{/keyword_list}}
