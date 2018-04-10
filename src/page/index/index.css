@@ -25,10 +25,10 @@
 /* keywords-list */
 .keywords-list{
     float: left;
-    width: 240px;
+    width: 200px;
     height: 447px;
     padding: 0 0;
-    margin-right: 10px;
+    margin-right: 0;
     background: #666;
     color: #fff;
 }
@@ -69,7 +69,24 @@
 }
 
 /*轮播图上面的小图*/
-
+.bottom-slider{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: 8;
+    margin-left: -395px;
+    width: 790px;
+    display: block
+}
+.bottom-slider .bottom-div{
+    width: 260px;
+    height: 110px;
+    float: left;
+    overflow: hidden;
+}
+.bottom-slider div:first-child {
+    margin-left: 5px
+}
 
 /* banner-con 轮播图*/
 .banner-con{
@@ -167,3 +184,170 @@
     height: 75%;
     border: none;
 }
+/*右侧的用户区域*/
+/*图标区域*/
+.icon_index_v1 {
+    display: inline-block;
+    background: url(../../image/icon/icon_index_v1.png) no-repeat
+}
+
+.icon_more {
+    height: 16px;
+    width: 16px;
+    background-position: 0 0
+}
+
+.icon_index_qorder {
+    height: 45px;
+    width: 45px;
+    background-position: 0 -16px
+}
+
+.icon_index_msg {
+    height: 45px;
+    width: 45px;
+    background-position: 0 -61px
+}
+
+.icon_index_collect {
+    height: 45px;
+    width: 45px;
+    background-position: 0 -106px
+}
+
+.icon_clock {
+    height: 64px;
+    width: 54px;
+    background-position: 0 -151px
+}
+
+
+
+.focus-my {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 198px;
+    height: 444px;
+    border: 1px solid #ddd6d9;
+    border-top: 2px solid #efe7ea;
+    /*background: url(../images/base/white_opacity_95.png) repeat;*/
+    z-index: 8
+}
+.focus-my .bd {
+    height: 314px;
+    border-bottom: 1px solid #ddd
+}
+.focus-my .bd .focus-my-out {
+    overflow: hidden
+}
+
+.focus-my .bd .focus-my-out .my-icon {
+    margin-top: 18px;
+    text-align: center;
+    left: 50%;
+}
+.focus-my .bd .focus-my-out .my-icon img{
+    vertical-align: middle;
+    border: 0;
+    margin-left: 25%;
+}
+
+.focus-my .bd .focus-my-out .my-icon p {
+    margin-top: 12px;
+    line-height: 14px;
+    color: #666;
+
+}
+
+.focus-my .bd .focus-my-out .btn-login,.focus-my .bd .focus-my-out .btn-reg {
+    margin: 10px auto;
+    display: block;
+    width: 148px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #77c552;
+    background-color: #fff;
+    font-size: 16px;
+    color: #77c552;
+    text-align: center;
+    border-radius: 5px
+}
+
+.focus-my .bd .focus-my-out .btn-login:hover,.focus-my .bd .focus-my-out .btn-reg:hover {
+    opacity: 0.8
+}
+
+.focus-my .bd .focus-my-out .btn-login {
+    background-color: #77c552;
+    color: #fff
+}
+
+.focus-my .bd .focus-my-out .my-out-footer {
+    margin: 26px 10px 0;
+    line-height: 14px;
+    font-size: 12px;
+    text-align: center;
+    color: #000
+}
+
+.focus-my .bd .focus-my-out .my-out-footer .my-out-code {
+    margin-top: 10px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #77c552
+}
+
+.focus-my .hd {
+    height: 128px;
+    overflow: hidden
+}
+
+.focus-my .hd.sales-hd {
+    display: none
+}
+
+.focus-my .hd .ico_main {
+    display: inline-block
+}
+
+.focus-my .hd .item {
+    position: relative;
+    float: left;
+    margin-top: 27px;
+    width: 66px;
+    text-align: center
+}
+
+.focus-my .hd .item p {
+    margin-top: 10px;
+    line-height: 14px
+}
+
+.focus-my .hd .item em {
+    position: absolute;
+    top: -8px;
+    right: 3px;
+    line-height: 1;
+    border-radius: 50%;
+    background: #ff3f3f;
+    font-style: normal;
+    color: #fff
+}
+
+.focus-my .hd .item em span {
+    display: block;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    font-size: 12px;
+    -webkit-transform: scale(0.84, 0.84);
+    *font-size: 10px;
+    overflow: hidden
+}
+
+

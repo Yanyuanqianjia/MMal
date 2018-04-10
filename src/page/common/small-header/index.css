@@ -3,3 +3,228 @@
 * Date 2018-04-04 17:43
 * Descriotion 
 */
+
+
+#yHeaderSmall {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background: url(../../../image/background/white_opacity_90.png) repeat;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+    z-index: 10
+}
+
+.y-small-header {
+    position: relative;
+    margin: 0 auto;
+    width: 1190px
+}
+
+.y-small-header .y-logo {
+    margin-top: -3px;
+    height: 53px
+}
+
+.y-small-header .y-search {
+    top: 10px;
+    left: 257px;
+    width: auto;
+    height: 30px
+}
+
+.y-small-header .y-search .input-search {
+    padding-left: 59px;
+    width: 529px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #77c552
+}
+
+.y-small-header .y-search .dropdown {
+    top: 1px;
+    left: 1px;
+    line-height: 25px
+}
+
+.y-small-header .y-search .btn-search {
+    height: 30px;
+    line-height: 30px
+}
+
+.y-small-header .y-search .hot-key {
+    top: 6px
+}
+
+.y-small-header .y-search .serach-list {
+    top: 30px;
+    width: 678px;
+    border-width: 1px
+}
+
+
+.y-logo {
+    float: left;
+    margin-top: 28px;
+    width: 194px;
+    height: 58px;
+    overflow: hidden
+}
+
+.y-logo a {
+    display: block
+}
+
+.y-search {
+    position: absolute;
+    left: 257px;
+    top: 39px;
+    width: 570px;
+    height: 40px
+}
+
+.y-search .input-search {
+    float: left;
+    padding: 0 10px 0 10px;
+    width: 468px;
+    height: 36px;
+    line-height: 36px;
+    border: 2px solid #77c552;
+    border-right: none;
+    font-size: 14px;
+    overflow: hidden
+}
+
+.y-search .btn-search {
+    float: left;
+    width: 80px;
+    height: 40px;
+    border: none;
+    background-color: #77c552;
+    color: #fff;
+    font-size: 16px
+}
+
+.y-search .dropdown {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    line-height: 33px;
+    font-family: "SimSun";
+    border: 1px solid #fff;
+    background-color: #fff;
+    z-index: 9
+}
+
+.y-search .dropdown:hover {
+    border-color: #dedede
+}
+
+.y-search .dropdown .iconfont {
+    margin-top: 4px;
+    margin-left: 4px;
+    color: #666;
+    font-size: 12px
+}
+
+.y-search .dropdown .dt {
+    padding-left: 8px;
+    cursor: pointer
+}
+
+.y-search .dropdown .dd {
+    display: none;
+    padding-left: 8px;
+    background-color: #fff
+}
+
+.y-search .dropdown.on .dd {
+    display: block
+}
+
+.y-search .serach-list {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 487px;
+    border: 2px solid #77c552;
+    border-top: none;
+    font-family: "SimSun";
+    background-color: #fff;
+    z-index: 8
+}
+
+.y-search .serach-list li {
+    height: 30px;
+    line-height: 30px
+}
+
+.y-search .serach-list li a {
+    display: block;
+    padding: 0 18px
+}
+
+.y-search .serach-list li a:hover {
+    background-color: #efefef
+}
+
+.y-search .serach-list li span {
+    float: right;
+    color: #bbb
+}
+
+.y-search .hot-key {
+    position: absolute;
+    right: 80px;
+    top: 12px;
+    font-family: "SimSun"
+}
+
+.y-search .hot-key a {
+    float: left;
+    display: block;
+    margin-right: 8px;
+    padding: 0 5px;
+    height: 18px;
+    line-height: 18px;
+    background-color: #e5e5e5
+}
+
+.y-search .hot-key a:hover {
+    background-color: #76c552;
+    color: #fff
+}
+
+.y-search .hot-activity {
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 45px
+}
+
+.y-search .hot-activity span {
+    margin-right: 6px;
+    color: #8f8f8f
+}
+
+.y-search .hot-activity a {
+    margin-right: 8px;
+    color: red
+}
+
+.y-search .search-select-tab {
+    display: none
+}
+
+/*.iconfont {*/
+    /*!*font-family: "iconfont" !important;*!*/
+    /*font-size: 16px;*/
+    /*font-style: normal;*/
+    /*-webkit-font-smoothing: antialiased;*/
+    /*-webkit-text-stroke-width: 0.2px;*/
+    /*-moz-osx-font-smoothing: grayscale*/
+/*}*/

@@ -5,3 +5,13 @@
  * Descriotion
  *
  */
+
+require('./index.css')
+
+
+
+    $(window).scroll(function() {
+        if($(document).scrollTop() > $("#yheader").offset().top + 140){
+            $("#yHeaderSmall").css('display','block');
+        };
+    })

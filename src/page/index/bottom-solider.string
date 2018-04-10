@@ -1,0 +1,9 @@
+
+    {{#bottom_solider}}
+        <div class = 'bottom-div'>
+            <a href="{{href}}" target="_blank" class='bottom-a'>
+                <img src="{{imgSrc}}" height="110" width="260" alt="" class='bottom-img' id='{{id}}'/>
+            </a>
+        </div>
+    {{/bottom_solider}}
+</div>
