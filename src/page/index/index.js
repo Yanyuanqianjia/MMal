@@ -5,6 +5,9 @@
 * @Last Modified time: 2017-05-26 19:36:18
 */
 
+
+//首页加载的时候需要做的事情
+//左侧栏，focus
 'use strict';
 require('./index.css');
 require('page/common/nav/index.js');
@@ -27,7 +30,13 @@ $(function() {
         var forward = $(this).hasClass('prev') ? 'prev' : 'next';
         $slider.data('unslider')[forward]();
     });
-    //页面加载的时候判断是否登录
-    //如果登录获取购物撤的数量
-    //
+    //这里对guide进行初始话
+    //对下面的小图进行初始化
+    //对左侧的用户区域进行初始化
+    //对商品的module区域进行初始化
+    //对商品的double区域进行初始化
+    //对copyRight进行初始化
+    //引导区域进行初始化
+
+
 });

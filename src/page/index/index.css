@@ -6,12 +6,76 @@
 */
 
 
+/*.keywords-item{*/
+/*border-bottom:1px  dashed ;*/
+/*position: relative;*/
+/*margin: 0 19px 0 12px;*/
+/*padding-right: 16px;*/
+/*padding-bottom: 1px;*/
+/*height: 55px;*/
+/*line-height: 55px;*/
+/*font-size: 14px;*/
+/*overflow: hidden*/
+/*}*/
+/*.keywords-list{*/
+/*height: 447px;*/
+/*}*/
 
-/* banner-con */
-.banner-con{
-    width: 830px;
+
+/* keywords-list */
+.keywords-list{
     float: left;
-    height: 370px;
+    width: 240px;
+    height: 447px;
+    padding: 0 0;
+    margin-right: 10px;
+    background: #666;
+    color: #fff;
+}
+.keywords-list .keywords-item{
+    /*padding-left: 10px;*/
+    /*height: 35px;*/
+    /*line-height: 35px;*/
+    /*font-size: 14px;*/
+    border-bottom:1px  dashed ;
+    position: relative;
+    margin: 0 19px 0 12px;
+    padding-right: 16px;
+    padding-bottom: 1px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 14px;
+    overflow: hidden
+
+}
+/*设置font-awesome样式的*/
+.keywords-list .keywords-item .fa-chevron-right:before{
+    display: block;
+    position: absolute;
+    right: 1px;
+    top: 50%;
+    margin-top: -6px
+}
+
+.keywords-list .keywords-item:hover{
+    background: #999;
+}
+.keywords-list .keywords-item .link{
+    margin-right: 6px;
+    color: #fff;
+}
+.keywords-list .keywords-item .link:hover{
+    color: #c60023;
+}
+
+/*轮播图上面的小图*/
+
+
+/* banner-con 轮播图*/
+.banner-con{
+    width: 790px;
+    float: left;
+    height: 447px;
     background: #eee;
 }
 .banner-con .loading{
@@ -19,11 +83,11 @@
 }
 .banner-con .banner-img{
     width: 100%;
-    height: 370px;
+    height: 447px;
 }
 /* banner的前一张和后一张按钮 */
 .banner-con .banner-arrow{
-    position: absolute; 
+    position: absolute;
     top:160px;
     width: 30px;
     height: 50px;
@@ -45,6 +109,7 @@
 .banner-con .banner-arrow.next{
     right: 0;
 }
+
 /* floor */
 .floor-wrap .floor-title{
     height: 50px;
