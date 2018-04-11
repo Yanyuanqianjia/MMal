@@ -21,6 +21,8 @@
 /*height: 447px;*/
 /*}*/
 
+/*引入采购流程的css文件*/
+@import "./procedures.css";
 
 /* keywords-list */
 .keywords-list{

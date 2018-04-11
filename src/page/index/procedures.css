@@ -1,0 +1,127 @@
+/*采购流程的css*/
+.module-procedures{
+    width: 1190px;
+    margin: auto;
+}
+
+.procedures {
+    margin-top: 54px;
+    position: relative;
+    height: 113px;
+    border: 1px solid #e5e5e5;
+    background-color: #fff
+}
+
+.procedures .procedures-hd {
+    position: absolute;
+    left: 50%;
+    top: -10px;
+    margin-left: -38px;
+    width: 76px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 18px;
+    text-align: center
+}
+
+.procedures .procedures-hd .line {
+    position: absolute;
+    top: 9px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #fff
+}
+
+.procedures .procedures-hd b {
+    position: relative;
+    font-weight: normal
+}
+
+.procedures .procedures-bd {
+    margin: 38px 0 0
+}
+
+.procedures .procedures-bd li {
+    position: relative;
+    float: left;
+    margin-left: 50px;
+    width: 220px;
+    overflow: hidden
+}
+
+.procedures .procedures-bd li .ico {
+    float: left;
+    margin: 0 12px 0 15px
+}
+
+.procedures .procedures-bd li .iconfont {
+    display: block;
+    height: 42px;
+    line-height: 42px;
+    font-size: 42px
+}
+
+.procedures .procedures-bd li .title {
+    height: 21px;
+    font-size: 14px;
+    color: #333;
+    /*text-decoration: none;*/
+}
+
+.procedures .procedures-bd li .info {
+    margin-top: 4px;
+    font-size: 12px;
+    font-family: "SimSun";
+    color: #999
+}
+
+.procedures .procedures-bd li.arrows {
+    margin: 14px 10px 0;
+    width: 11px;
+    height: 23px
+}
+
+.procedures .procedures-bd li.arrows i {
+    display: block
+}
+
+.procedures .procedures-bd li a {
+    display: block;
+    text-decoration: none;
+}
+
+.procedures .procedures-bd li a:hover .title {
+    color: #76c552
+}
+
+.procedures .procedures-bd li a:hover .info {
+    color: #76c552
+}
+
+.procedures .procedures-bd .point-1,.procedures .procedures-bd .point-2,.procedures .procedures-bd .point-3,.procedures .procedures-bd .point-4,.procedures .procedures-bd .point-5,.procedures .procedures-bd .point-6,.procedures .procedures-bd .point-7,.procedures .procedures-bd .point-8 {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    display: block;
+    margin-top: -3px;
+    width: 6px;
+    height: 6px;
+    background: url(../../image/icon/ico_list_point.png) no-repeat
+}
+
+.procedures .procedures-bd .point-1 {
+    background-position: 0 0
+}
+
+.procedures .procedures-bd .point-2 {
+    background-position: 0 -32px
+}
+
+.procedures .procedures-bd .point-3 {
+    background-position: 0 -80px
+}
+
+.procedures .procedures-bd .point-4 {
+    background-position: 0 -64px
+}

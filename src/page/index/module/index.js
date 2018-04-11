@@ -5,3 +5,4 @@
  * Descriotion
  *
  */
+require('./index.css')
